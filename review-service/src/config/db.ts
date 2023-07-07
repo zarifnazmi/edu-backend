@@ -1,6 +1,6 @@
 import { Feedback } from '../models/Feedback';
 
-let feedbacks: Feedback[] = [];
+var feedbacks: Feedback[] = [];
 let okaySuggestions: string[] = [
     'I felt bored a few times.',
     'I can only understand some parts.',

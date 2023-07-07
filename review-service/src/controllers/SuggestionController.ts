@@ -7,7 +7,7 @@ export default {
     const { method, url } = req;
 
     const headers = {
-      'Access-Control-Allow-Origin': '*', /* @dev First, read about security */
+      'Access-Control-Allow-Origin': 'http://localhost:3000', /* @dev First, read about security */
       'Access-Control-Allow-Methods': 'OPTIONS, POST, GET',
       'Access-Control-Max-Age': 2592000, // 30 days
       'Content-Type': 'application/json'
@@ -19,6 +19,10 @@ export default {
       logger.info(method+' '+200+` All suggestions queried.`);
       res.writeHead(200, headers);
       res.end(JSON.stringify(suggestions));
+    }
+    else {
+      res.writeHead(404);
+      res.end();
     }
 
   }
