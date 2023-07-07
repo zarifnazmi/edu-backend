@@ -20,7 +20,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
     "validatorjs": "^3.22.1",
     "winston": "^3.9.0"
   }

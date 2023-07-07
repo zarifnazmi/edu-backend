@@ -5,7 +5,7 @@ import logger from './utils/logger';
 import { config } from "dotenv";
 
 config();
-const PORT: number = Number(process.env.PORT) || 3000;
+const PORT: number = Number(process.env.PORT);
 
 const server = createServer((req: IncomingMessage, res: ServerResponse) => {
   if (req.url?.startsWith('/review')) {
