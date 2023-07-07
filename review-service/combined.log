@@ -11,3 +11,23 @@
 {"level":"info","message":"GET 200 All suggestions queried."}
 {"level":"info","message":"Review service listening on port 8000"}
 {"level":"info","message":"GET 200 All suggestions queried."}
+{"level":"info","message":"Review service listening on port 8000"}
+{"level":"info","message":"GET 200 All suggestions queried."}
+{"level":"info","message":"Review service listening on port 8000"}
+{"level":"info","message":"GET 200 All suggestions queried."}
+{"level":"info","message":"Review service listening on port 8000"}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"info","message":"GET 200 All suggestions queried."}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"info","message":"Review service listening on port 8000"}
+{"level":"info","message":"GET 200 All feedbacks queried."}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"info","message":"Review service listening on port 8000"}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"info","message":"GET 200 All suggestions queried."}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"info","message":"Review service listening on port 8000"}
+{"level":"error","message":"GET 404 Path Not Found"}
+{"level":"error","message":"GET 404 Path Not Found"}

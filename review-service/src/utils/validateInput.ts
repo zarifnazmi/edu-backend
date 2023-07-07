@@ -10,7 +10,7 @@ export default ( req: IncomingMessage, res: ServerResponse, validationRules: Rul
     const validation = new Validator(queryObject, validationRules);
     if (validation.fails()) {
         logger.error(req.method+' '+400+` Validation Errors: ${JSON.stringify(validation.errors.all())}`);
-        handleError(res, 'Invalid data.', 400);
+        handleError(req, res, 'Invalid data.', 400);
         return;
     }
 };
