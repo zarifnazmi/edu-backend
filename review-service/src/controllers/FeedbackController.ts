@@ -11,7 +11,7 @@ export default {
     let rule = {
       email: 'required|email',
       type: 'required',
-      comment: 'string|nullable'
+      comment: 'string'
     };
       res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
       // res.setHeader('Access-Control-Allow-Origin', '*');
