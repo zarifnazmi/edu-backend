@@ -1,12 +1,10 @@
-import { okaySuggestions, awesomeSuggestions } from '../config/db';
+import { okaySuggestions, awesomeSuggestions, emojis  } from '../config/db';
 import { Suggestion } from '../models/Suggestion';
+import logger from '../utils/logger';
 
 class SuggestionService {
-  getAll(): Suggestion {
-    return {
-        okaySuggestions,
-        awesomeSuggestions
-    }
+  getAll(): Suggestion[] {
+    return emojis
   }
   
 }

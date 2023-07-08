@@ -1,4 +1,5 @@
 export interface Suggestion {
-    okaySuggestions: string[];
-    awesomeSuggestions: string[];
+    emoji: string;
+    title: string;
+    suggestions: { key: string, label: string }[];
 }
